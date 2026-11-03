@@ -1,0 +1,5 @@
+<!doctype html><html><body style="font-family:sans-serif;text-align:center">
+<h1>Sorteio ao vivo</h1><button onclick="google.script.run.withSuccessHandler(m).sortear()">Sortear</button>
+<h2 id="r"></h2><pre id="a"></pre>
+<script>function m(g){document.getElementById('r').textContent='Nº '+g.numero+' — '+g.primeiroNome+' ('+g.codigoMascara+')';
+document.getElementById('a').textContent='hash: '+g.hashLista+'\nseed: '+g.seed+'\níndice: '+g.indice+' de '+g.total;}</script></body></html>
