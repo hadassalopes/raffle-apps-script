@@ -1,5 +1,7 @@
 # Sorteio verificável com Google Apps Script
 
+🇺🇸 [English version](README.en.md)
+
 > Projeto de portfólio. Código adaptado de uma automação real em produção; **todos os dados, nomes, IDs e valores são fictícios**.
 
 ## Problema
